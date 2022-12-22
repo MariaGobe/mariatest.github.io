@@ -1,0 +1,41 @@
+.row {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: black;
+    padding: 2%;
+    column-gap: 2%;
+}
+
+.row img {
+    object-fit: cover;
+    width: 80%;
+    opacity: 0.5;
+}
+
+.row img:hover {
+    opacity: 1;
+}
+
+.columna {
+    text-align: center;
+}
+
+.container {
+    margin-top: 5%;
+    background-color: black;
+    padding: 5%;
+    text-align: center;
+
+}
+
+.container span {
+    color: #fff;
+    float: right;
+}
+
+.container img{
+    object-fit: cover;
+    width: 60%;
+}
+
+
